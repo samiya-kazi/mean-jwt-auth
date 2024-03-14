@@ -1,0 +1,7 @@
+<div *ngIf="user">
+  <h1>User Info</h1>
+  <h3>{{user.name}}</h3>
+  <p>{{user.gender}}</p>
+</div>
+
+<button (click)="handleLogout()">Logout</button>
